@@ -1,0 +1,16 @@
+POST http://localhost:3001/api/newUser/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub21icmVzIjoiU3VwZXIgQWRtaW4iLCJydXQiOiIxMS4xMTEuMTExLTEiLCJpYXQiOjE3MDY0NjY3NTR9.0gwBzWLjkeKGdhTXjRSPSMfgABXK73ifmqT7As1xQy4
+
+{
+    "rut": "13.111.118-9",
+    "nombres": "Daniel",
+    "apellidos": "Salas",
+    "email": "daniel@gmail.com",
+    "passHash": "test",
+    "rol": "user",
+    "dependencias": "Municipalidad norte",
+    "direcciones": "Iquique",
+    "numMunicipal": "9 0101 0202",
+    "anexoMunicipal": "7372"
+}
